@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7ed0bdd5ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/demo-logo.png" alt="Company Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero/Banner Section -->
+    <section id="banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="promo-title">Best Digital Agency</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis saepe consequuntur vel itaque adipisci, iusto officia.
+            </p>
+            <a href="#">
+              <img src="images/play.png" class="play-btn" alt="Play Button" />
+              Watch Tutorials
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="images/home2.png"
+              alt="Illustration of Home"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/wave1.png"
+        class="bottom-img img-fluid"
+        alt="Decorative Wave"
+      />
+    </section>
+
+    <!-- Service Section -->
+    <section id="service">
+      <div class="container text-center">
+        <h1 class="title">WHAT WE DO?</h1>
+        <div class="row">
+          <div class="col-md-4 services">
+            <img src="images/service1.png" alt="Growth Marketing" class="service-img" />
+            <h4>Growth Marketing</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/service2.png" alt="Online Branding" class="service-img" />
+            <h4>Online Branding</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="images/service3.png" alt="Animated Ads" class="service-img" />
+            <h4>Animated Ads</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary mt-3">All Services</button>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <section id="social-media">
+      <div class="container text-center">
+        <p>FIND US ON SOCIAL MEDIA</p>
+        <div class="social-icon">
+          <a href="#"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="images/whatsapp-icon.png" alt="Twitter" /></a>
+          <a href="#"><img src="images/snapchat-icon.png" alt="Snapchat" /></a>
+          <a href="#"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+          <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact">
+    <img src="images/wave2.png" alt="Decorative Wave" class="footer" />
+    <div class="container">
+      <div class="row">
+       
+        <!-- Company Info -->
+        <div class="col-md-4 footer-box">
+          <img src="images/demo-logo.png" alt="Company Logo" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nesciunt quidem dolor tempora distinctio porro consequuntur.
+          </p>
+        </div>
+         <!-- Subscription Box -->
+         <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
+            <input type="email" class="form-control mb-2" placeholder="Enter your email" />
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        <!-- Contact Details -->
+        <div class="col-md-4 footer-box">
+          <p><b>CONTACT US</b></p>
+          <p><i class="fa-solid fa-map-location-dot"></i> Jamshedpur</p>
+          <p><i class="fa-solid fa-phone-volume"></i> +91 000100010</p>
+          <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  </body>
+</html>
