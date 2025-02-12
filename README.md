@@ -23,12 +23,6 @@ This is a **responsive Digital Agency website** built using **HTML, CSS, and Boo
 - Integrate a backend for contact forms
 - Improve SEO and accessibility
 
-## 📜 License
-This project is open-source and free to use.
-
-## 🙌 Acknowledgments
-- Bootstrap documentation
-- Various online tutorials and inspirations
 
 ## 🤝 Contributing
 Feel free to contribute! Fork the repository and submit a pull request with your improvements.
